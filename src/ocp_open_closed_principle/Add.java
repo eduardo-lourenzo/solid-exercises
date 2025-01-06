@@ -4,6 +4,6 @@ public class Add implements Operation{
 
     @Override
     public int operate(int leftHandSide, int rightHandSide) {
-        return 0;
+        return leftHandSide + rightHandSide;
     }
 }
