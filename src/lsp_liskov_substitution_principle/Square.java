@@ -1,7 +1,7 @@
 package src.lsp_liskov_substitution_principle;
 
 public class Square {
-    Rectangle rectangle;
+    private final Rectangle rectangle;
 
     public Square(int side) {
         rectangle = new Rectangle(side, side);
@@ -9,7 +9,7 @@ public class Square {
 
     public void setSide(int side) {
         rectangle.setHeight(side);
-        rectangle.setHeight(side);
+        rectangle.setWidth(side);
     }
 
     public int getArea() {

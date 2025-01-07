@@ -1,8 +1,8 @@
 package src.lsp_liskov_substitution_principle;
 
 public class Rectangle {
-    int height;
-    int width;
+    private int height;
+    private int width;
 
     public Rectangle(int height, int width) {
         this.height = height;
