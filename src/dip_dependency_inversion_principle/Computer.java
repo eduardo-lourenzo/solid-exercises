@@ -6,7 +6,7 @@ public class Computer {
     ArrayList<Device> devices;
 
     public Computer() {
-        devices = new Devices();
+        devices = new ArrayList<>();
     }
 
     public void setDevices(Device device) {
